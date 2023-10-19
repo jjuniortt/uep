@@ -1650,6 +1650,7 @@ a {
   width: 45px;
   height: 40px;
   transform: rotate(9deg);
+  display: none;
 }
 @media (max-width: 585px) {
   .cid-tT9m9u5f0X .text svg {
@@ -1740,7 +1741,7 @@ a {
 .cid-tT9tEQrHMt .card .card-wrapper {
   padding: 24px;
   margin-bottom: 32px;
-  background-color: #ff3a46;
+  background-color: #000000;
   border-radius: 16px;
 }
 @media (max-width: 992px) {
