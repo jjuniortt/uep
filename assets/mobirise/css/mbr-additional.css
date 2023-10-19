@@ -29,11 +29,11 @@ body {
 }
 .display-2 {
   font-family: 'Inter Tight', sans-serif;
-  font-size: 3rem;
+  font-size: 2.8rem;
   line-height: 1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 3.75rem;
+  font-size: 3.5rem;
 }
 .display-4 {
   font-family: 'Inter Tight', sans-serif;
@@ -45,11 +45,11 @@ body {
 }
 .display-5 {
   font-family: 'Inter Tight', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 .display-7 {
   font-family: 'Inter Tight', sans-serif;
@@ -76,9 +76,9 @@ body {
     line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.4rem;
-    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.24rem;
+    font-size: calc( 1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.8rem;
@@ -86,9 +86,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.28rem;
-    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
     font-size: 0.96rem;
@@ -622,7 +622,7 @@ a:hover {
   font-size: 1.2rem;
   line-height: 1.3;
   font-weight: 400;
-  border-radius: 40px !important;
+  border-radius: 100px !important;
 }
 .form-control > .mbr-iconfont {
   font-size: 1.5rem;
