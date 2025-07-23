@@ -628,7 +628,6 @@
 	</div>
 </section>
 
-
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/parallax/jarallax.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
@@ -638,7 +637,41 @@
   <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
+<script type="module">
+    import Chatbox from 'https://cdn.jsdelivr.net/npm/@chatvolt/embeds@latest/dist/chatbox/index.js';
+
+    const widget = await Chatbox.initBubble({
+        agentId: 'cmcve49ym0b6r12sm0r6hnp81',
+
+  //[optional] If provided will create a contact for the user and link it to the conversation
+    contact: {
+        firstName: 'Jonas',
+        lastName: 'Tófoli',
+        email: 'teste@email.com',
+        phoneNumber: '+0000000000',
+    },
+   
+  //[optional] Override initial messages
+    interface: {
+        initialMessages: [
+        'Olá, Jonas.',
+        'Como posso lhe ajudar?',
+        ],
+    },
   
+    //[optional] Provided context will be Appended to the Agent system prompt
+    context: "O usuário, administrador do AGHUse, trabalha em uma das unidades de saúde do Estado da Paraíba.",
+    });
+
+    // open the chat bubble
+    widget.open();
+
+    // close the chat bubble
+    widget.close()
+
+    // or 
+    widget.toggle()
+</script>
   
 </body>
 </html>
